@@ -15,5 +15,12 @@
 
 { In the moment there are no special defines for Log4D }
 
+{$IFDEF DELPHIXE_UP}
+  {$DEFINE SUPPORTS_FORMATSETTINGS}
+{$ENDIF}
+
+{$IFDEF FPC}
+  {$DEFINE SUPPORTS_FORMATSETTINGS}
+{$ENDIF}
 {.$DEFINE MSXML4}
 {.$DEFINE MSSAX}
