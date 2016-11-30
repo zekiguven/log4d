@@ -2204,7 +2204,6 @@ procedure TLogCustomLayout.Init;
 begin
   inherited Init;
   SetOption(DateFormatOpt, {$IFDEF SUPPORTS_FORMATSETTINGS}FormatSettings.{$ENDIF}ShortDateFormat);
-  SetOption(DateFormatOpt, {$IFDEF SUPPORTS_FORMATSETTINGS}FormatSettings.{$ENDIF}ShortDateFormat);
 end;
 
 { Set a list of options for this layout. }
