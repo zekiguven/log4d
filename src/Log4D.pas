@@ -61,7 +61,7 @@ uses
 {$ELSE}
   Windows,
 {$ENDIF}
-{$IFDEF DELPHI5_UP}
+{$IFDEF HAS_UNIT_CONTNRS}
   Contnrs,
 {$ENDIF}
   SysUtils;
